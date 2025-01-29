@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #333;
+    color: #fff;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    flex-direction: space-between;
+    gap: 2rem;
+}
+
+.stagepage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 2px;
+    background-color: #f1f1f1;
+    flex-wrap: wrap;
+}
+
+.stagepage .stage:nth-child(even){
+    background-color: #92bd12;
+    position: relative;
+    top: 25%;
+}
+
+.game-buttons{
+    display: flex;
+    position: absolute;
+    border: #0f4fc5 solid 1px;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    top: 40vh;
+}
+
+.game-buttons button{
+    padding: 20px;
+    background-color: #0f4fc5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}   
+
+main{
+    display: flex;
+    gap: 50%;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.stage{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 8rem;
+    background-color: #f1f1f1;
+    border: #333 solid 2px;
+}
+
+.avatar{
+    border: #333 solid 1px;
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    
+}
+
+.avatar-section {
+    padding-top: 10;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 5px; 
+    border: 1px solid red;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    left: 30vw;
+    top: 1vh;
+
+}
+
+.game-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    color: #0f4fc5;
+    padding: 10px;
+    width: auto;
+    margin: 2%;
+}
+
+footer{
+    display: flex;
+    height: 20vh;
+    flex-wrap: wrap; 
+    gap: 5px; 
+    justify-content: center; 
+    align-items: center;
+    background-color: #2d2e2a;
+}
