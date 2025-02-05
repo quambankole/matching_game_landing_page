@@ -20,87 +20,6 @@ header ul{
     gap: 2rem;
 }
 
-.stagepage{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-    gap: 2px;
-    background-color: #f1f1f1;
-    flex-wrap: wrap;
-}
-
-.stagepage .stage:nth-child(even){
-    background-color: #92bd12;
-    position: relative;
-    top: 25%;
-}
-
-.game-buttons{
-    display: flex;
-    position: absolute;
-    border: #0f4fc5 solid 1px;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    top: 40vh;
-}
-
-.game-buttons button{
-    padding: 20px;
-    background-color: #0f4fc5;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}   
-
-main{
-    display: flex;
-    gap: 50%;
-    flex-direction: column;
-    background-color: #f1f1f1;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-}
-
-li a{
-    text-decoration: none;
-    color: #fff;
-}
-
-.stage{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    width: 8rem;
-    background-color: #f1f1f1;
-    border: #333 solid 2px;
-}
-
-.avatar{
-    border: #333 solid 1px;
-    width: 60px;
-    height: 60px;
-    margin: 0;
-    
-}
-
-.avatar-section {
-    padding-top: 10;
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 5px; 
-    border: 1px solid red;
-    width: fit-content;
-    height: fit-content;
-    padding: 10px;
-    left: 30vw;
-    top: 1vh;
-
-}
-
 .game-title{
     display: flex;
     justify-content: center;
@@ -111,6 +30,60 @@ li a{
     width: auto;
     margin: 2%;
 }
+
+main{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 50vh;
+
+}
+
+.game-navigations{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 7rem;
+    
+
+}
+
+.game-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.game-buttons button{
+    border: solid 1px red;
+    border-radius: 0.6rem;
+    padding: 1.5rem 2rem;
+    width: 10rem;
+}
+
+.leftFarm-navs,.rightFarm-navs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.leftFarm-navs div,.rightFarm-navs div{
+    border: 1px solid green;
+    padding: 2rem;
+
+}
+
+
+
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
 
 footer{
     display: flex;
